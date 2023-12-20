@@ -1,7 +1,7 @@
 mod dir_handler;
 mod file_handler;
 mod service;
-mod schemas;
+mod schema;
 mod web_lib;
 
 use actix_web::{App, HttpServer};

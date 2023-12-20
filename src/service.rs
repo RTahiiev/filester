@@ -3,7 +3,7 @@ use actix_web::{get, post, web, HttpResponse, HttpRequest, Error};
 use log::debug;
 
 use crate::dir_handler::{read_folder, create_folder, BASE_DIR};
-use crate::schemas::Folder;
+use crate::schema::Folder;
 use crate::web_lib::get_body;
 
 
